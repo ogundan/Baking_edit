@@ -1,0 +1,112 @@
+/*   The file represents the CSS for the project.  */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:  'Red Hat Display', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94);
+    background-size: cover;
+    min-height: 100vh;
+}
+.container {
+    max-width: 360px;
+    min-height: 400px;
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 0 1rem 1rem rgba(0,0,0, .2);
+    background-color: #fff;
+}
+.image {
+    width: 100%;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.order {
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+.summary h1 {
+    font-size: 30px;
+    font-weight: 300px;
+    color: hsl(24, 50%, 42%);
+    text-align: center;
+}
+.summary {
+    font-size: 16px;
+    font-weight: 100px;
+    color: hsl(24, 16%, 51%);
+    text-align: center;
+}
+.icon {
+    display: flex;
+    padding-bottom: 10px;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+
+}
+.icon-image {
+    font-size: 10px;
+    border-radius: .5rem !important;
+    
+    
+    padding-left: 40px !important;
+}
+.annual {
+    padding-left: 30px;
+}
+.annual h2 {
+    font-size: 20px;
+    font-weight: 300px;
+    color: hsl(24, 50%, 42%);
+}
+.annual p {
+    font-size: 15px;
+    color: rgb(9, 11, 17);
+
+}
+.change {
+    margin-top: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(9, 11, 17);
+}
+.btn {
+    background-color: hsl(223, 47%, 23%);
+    color: white;
+    text-align: center;
+    border-radius: .4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 45px 10px 25px;
+}
+.cancel {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100px;
+    color: rgb(9, 11, 17);
+    padding-right: 30px;
+}
+.cancel:hover, .btn:hover, .change:hover {
+    cursor: pointer;
+    color: hsl(24, 16%, 51%);
+}
+@media (max-width: 375px) {
+    .container{
+        max-width: 300px;
+        margin: 10px;
+    }
+}
+
+
