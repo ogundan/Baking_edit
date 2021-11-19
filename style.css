@@ -4,5 +4,5 @@
     background:cadetblue;
     align-items: center;
     justify-content: space-around;
-
+    display: flex;
 }
