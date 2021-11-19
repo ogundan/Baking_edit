@@ -1,0 +1,8 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background:cadetblue;
+    align-items: center;
+    justify-content: space-around;
+
+}
